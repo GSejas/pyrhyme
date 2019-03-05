@@ -1,0 +1,21 @@
+from setuptools import setup, find_packages
+
+setup(name='pyrhyme',
+      version='0.1',
+      description=("Python wrapper for RhymeBrain API"),
+      long_description=open('README.rst').read(),
+      classifiers=['Development Status :: 4 - Beta',
+                   'Intended Audience :: Developers',
+                   'Liecnse :: OSI Approved :: MIT License',
+                   'Operating System :: OS Independent',
+                   'Programming Language :: Python',
+                   'Topic :: Software Development :: Libraries :: Python Modules'],
+      keywords='python rhyme words api',
+      author='Jorge Sequeira',
+      author_email='jsequeira03@gmail.com',
+      url='https://github.com/GSejas/pyrhyme/',
+      license='MIT',
+      packages=find_packages(),
+      install_requires=['requests'],
+      py_modules=['pyrhyme'],
+      )
